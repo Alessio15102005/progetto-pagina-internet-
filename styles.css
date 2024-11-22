@@ -1,0 +1,333 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header container for title and navigation */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Title styling */
+.header h3 {
+    font-size: 1.8em;
+    color: #FF9900;
+    margin: 0;
+}
+
+/* Navigation list styling */
+.navigation {
+    display: flex;
+    gap: 20px;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Hover effect for links */
+.navigation a:hover {
+    color: #007BFF;
+}
+
+/* Main content styling */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Left section (text and button) */
+.main .text-content {
+    max-width: 50%;
+}
+
+.main .text-content h1 {
+    font-size: 2.5em;
+    color: #FF9900;
+    margin: 0 0 20px 0;
+}
+
+.main .text-content p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0 0 20px 0;
+}
+
+.main .text-content .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF9900;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.main .text-content .button:hover {
+    background-color: #e68a00;
+}
+
+/* Right section (image) */
+.main .image-content img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* Section with image and text */
+.feature-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px; /* Space above the section */
+}
+
+.feature-section .image-container img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.feature-section .text-container {
+    max-width: 50%;
+}
+
+.feature-section .text-container h2 {
+    font-size: 2em;
+    color: #FF9900;
+    margin-bottom: 20px;
+}
+
+.feature-section .text-container p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.feature-section .text-container .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF9900;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.feature-section .text-container .button:hover {
+    background-color: #e68a00;
+}
+
+/* Menu Title Section - changed color */
+.menu-title-section {
+    text-align: center;
+    margin-top: 50px;
+    color: #e68a00;  /* Menu title color */
+}
+
+.menu-title-section h2 {
+    font-size: 2.5em;
+    color: #e68a00;  /* Apply the color to the title */
+}
+
+.menu-title-section p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Card Section Styling */
+
+.card-section {
+    display: flex;
+    justify-content: center; /* Centra le card orizzontalmente */
+    align-items: flex-start; /* Mantiene l'allineamento verticale in alto */
+    padding: 20px;
+    gap: 20px;
+    margin-top: 20px; /* Aggiunto per abbassare l'intera sezione di 20px */
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px;
+    text-align: center; /* Titoli e descrizione sono centrati */
+    padding: 20px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0; /* Aggiunto margine verticale per abbassare le card */
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    color: #FF9900;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #333;
+    margin: 5px 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Section Styling */
+.footer {
+    background-color: #f8f8f8;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services h2 {
+    color: #FF9900;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.services h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    text-align: center;
+    max-width: 300px;
+}
+
+.service img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.service h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.contact-section h3 {
+    font-size: 1.8em;
+    color: #FF9900;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: #FF9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #e68a00;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+}
+
+.footer-links h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.social-icons a:hover {
+    color: #FF9900;
+}
